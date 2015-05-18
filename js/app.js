@@ -1,15 +1,19 @@
-;
-(function () {
+;(function () {
 
     'use strict';
+
+    /*global google, CTC */
 
     var map = new google.maps.Map(document.getElementById("map_canvas"), {
             mapTypeId: google.maps.MapTypeId.ROADMAP
         }),
+        lowBound = null,
+        $progress = $('.cs-slider_result'),
         slider = new CTC.modules.CustomSlider('#cs-slider', {
-            animationCallback: function (x) {
-                $('.cs-slider_result').text(x);
-                map.setZoom(+x);
+            animationCallback: function (currentValue, low_bound) {
+                lowBound = low_bound;
+                $progress.text(currentValue);
+                map.setZoom(currentValue);
             }
         }),
 
@@ -26,7 +30,10 @@
             });
         },
 
-        initMap = function () {
+        initMap = function (minZoom, maxZoom, currentZoom) {
+
+            slider.setBounds(minZoom, maxZoom);
+
             $.when(getDataDB()).then(function (data) {
                 var bounds = new google.maps.LatLngBounds();
 
@@ -36,13 +43,18 @@
                 });
 
                 map.fitBounds(bounds);
-                slider.setPosition(15);
+
+                map.setOptions({
+                    minZoom: minZoom,
+                    maxZoom: maxZoom
+                });
+                slider.setPosition(currentZoom - minZoom);
             });
         };
 
     google.maps.event.addListener(map, 'zoom_changed', function () {
-        slider.setPosition(+map.getZoom());
+        slider.setPosition(+map.getZoom() - map.minZoom);
     });
 
-    initMap();
+    initMap(5, 20, 15);
 }());
