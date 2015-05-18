@@ -1,0 +1,542 @@
+[
+  {
+    "propertyType": {
+      "propertyTypeId": 1,
+      "name": "Villa"
+    },
+    "price": 650000,
+    "netto": 29633,
+    "brutto": 35968,
+    "address1": "Strindbergsvej 1",
+    "placeName": "                                                            ",
+    "builtYear": 1915,
+    "propertySizeAdvertized": 178,
+    "totalNumberOfRooms": 6,
+    "spotText": "",
+    "hasOpenHouseCurrently": false,
+    "openHouseDisplayText": "",
+    "salesMethod": "G",
+    "brokerChain": "DanBolig",
+    "externalPropertyUrl": null,
+    "externalPropertyImageUrl": null,
+    "brokerChainId": "1",
+    "brokerChainName": "",
+    "isSwapProperty": false,
+    "pricePerM2": 36516,
+    "andelsboligBoligYdelse": 1029,
+    "andelsboligAnvendelsesUdgifter": 1958,
+    "energyClassification": " ",
+    "propertyId": "KF691509",
+    "broker": {
+      "brokerId": "069",
+      "brokerName": "Holm & Hauberg BoligCenter Valby/København SV"
+    },
+    "latLon": {
+      "lat": 55.660058,
+      "lon": 12.521015
+    },
+    "county": {
+      "countyId": 1084,
+      "name": "Region Hovedstaden"
+    },
+    "zipCode": {
+      "zipCodeId": 2500,
+      "name": "Valby"
+    }
+  },
+  {
+    "propertyType": {
+      "propertyTypeId": 1,
+      "name": "Villa"
+    },
+    "price": 499500,
+    "netto": 24660,
+    "brutto": 29834,
+    "address1": "Bjørnsonsvej 101",
+    "placeName": "                                                            ",
+    "builtYear": 1913,
+    "propertySizeAdvertized": 153,
+    "totalNumberOfRooms": 6,
+    "spotText": "",
+    "hasOpenHouseCurrently": false,
+    "openHouseDisplayText": "",
+    "salesMethod": "G",
+    "brokerChain": "DanBolig",
+    "externalPropertyUrl": null,
+    "externalPropertyImageUrl": null,
+    "brokerChainId": "1",
+    "brokerChainName": "",
+    "isSwapProperty": false,
+    "pricePerM2": 32647,
+    "andelsboligBoligYdelse": 1021,
+    "andelsboligAnvendelsesUdgifter": 1167,
+    "energyClassification": " ",
+    "propertyId": "RJ691565",
+    "broker": {
+      "brokerId": "069",
+      "brokerName": "Holm & Hauberg BoligCenter Valby/København SV"
+    },
+    "latLon": {
+      "lat": 55.651595,
+      "lon": 12.523563
+    },
+    "county": {
+      "countyId": 1084,
+      "name": "Region Hovedstaden"
+    },
+    "zipCode": {
+      "zipCodeId": 2500,
+      "name": "Valby"
+    }
+  },
+  {
+    "propertyType": {
+      "propertyTypeId": 1,
+      "name": "Villa"
+    },
+    "price": 497500,
+    "netto": 25164,
+    "brutto": 30440,
+    "address1": "Dronning Dagmars Allé 19",
+    "placeName": "                                                            ",
+    "builtYear": 1920,
+    "propertySizeAdvertized": 153,
+    "totalNumberOfRooms": 5,
+    "spotText": "",
+    "hasOpenHouseCurrently": false,
+    "openHouseDisplayText": "",
+    "salesMethod": "G",
+    "brokerChain": "DanBolig",
+    "externalPropertyUrl": null,
+    "externalPropertyImageUrl": null,
+    "brokerChainId": "1",
+    "brokerChainName": "",
+    "isSwapProperty": false,
+    "pricePerM2": 32516,
+    "andelsboligBoligYdelse": 849,
+    "andelsboligAnvendelsesUdgifter": 833,
+    "energyClassification": " ",
+    "propertyId": "RJ691520",
+    "broker": {
+      "brokerId": "069",
+      "brokerName": "Holm & Hauberg BoligCenter Valby/København SV"
+    },
+    "latLon": {
+      "lat": 55.666606,
+      "lon": 12.50113
+    },
+    "county": {
+      "countyId": 1084,
+      "name": "Region Hovedstaden"
+    },
+    "zipCode": {
+      "zipCodeId": 2500,
+      "name": "Valby"
+    }
+  },
+  {
+    "propertyType": {
+      "propertyTypeId": 1,
+      "name": "Villa"
+    },
+    "price": 480000,
+    "netto": 23626,
+    "brutto": 27568,
+    "address1": "Grønnehave Allé 23",
+    "placeName": "                                                            ",
+    "builtYear": 2007,
+    "propertySizeAdvertized": 169,
+    "totalNumberOfRooms": 6,
+    "spotText": "",
+    "hasOpenHouseCurrently": false,
+    "openHouseDisplayText": "",
+    "salesMethod": "G",
+    "brokerChain": "DanBolig",
+    "externalPropertyUrl": null,
+    "externalPropertyImageUrl": null,
+    "brokerChainId": "1",
+    "brokerChainName": "",
+    "isSwapProperty": false,
+    "pricePerM2": 28402,
+    "andelsboligBoligYdelse": 773,
+    "andelsboligAnvendelsesUdgifter": 1043,
+    "energyClassification": " ",
+    "propertyId": "KF691572",
+    "broker": {
+      "brokerId": "069",
+      "brokerName": "Holm & Hauberg BoligCenter Valby/København SV"
+    },
+    "latLon": {
+      "lat": 55.645102,
+      "lon": 12.500386
+    },
+    "county": {
+      "countyId": 1084,
+      "name": "Region Hovedstaden"
+    },
+    "zipCode": {
+      "zipCodeId": 2500,
+      "name": "Valby"
+    }
+  },
+  {
+    "propertyType": {
+      "propertyTypeId": 1,
+      "name": "Villa"
+    },
+    "price": 450000,
+    "netto": 23320,
+    "brutto": 27677,
+    "address1": "Nybovej 19",
+    "placeName": "                                                            ",
+    "builtYear": 1934,
+    "propertySizeAdvertized": 144,
+    "totalNumberOfRooms": 5,
+    "spotText": "",
+    "hasOpenHouseCurrently": false,
+    "openHouseDisplayText": "",
+    "salesMethod": "G",
+    "brokerChain": "DanBolig",
+    "externalPropertyUrl": null,
+    "externalPropertyImageUrl": null,
+    "brokerChainId": "1",
+    "brokerChainName": "",
+    "isSwapProperty": false,
+    "pricePerM2": 31250,
+    "andelsboligBoligYdelse": 854,
+    "andelsboligAnvendelsesUdgifter": 1417,
+    "energyClassification": " ",
+    "propertyId": "RJ691511",
+    "broker": {
+      "brokerId": "069",
+      "brokerName": "Holm & Hauberg BoligCenter Valby/København SV"
+    },
+    "latLon": {
+      "lat": 55.6663,
+      "lon": 12.494533
+    },
+    "county": {
+      "countyId": 1084,
+      "name": "Region Hovedstaden"
+    },
+    "zipCode": {
+      "zipCodeId": 2500,
+      "name": "Valby"
+    }
+  },
+  {
+    "propertyType": {
+      "propertyTypeId": 4,
+      "name": "Ejerlejlighed "
+    },
+    "price": 399500,
+    "netto": 18576,
+    "brutto": 22330,
+    "address1": "Valbygårdsvej 12, 1 & 2 sal",
+    "placeName": "                                                            ",
+    "builtYear": 1888,
+    "propertySizeAdvertized": 181,
+    "totalNumberOfRooms": 6,
+    "spotText": "",
+    "hasOpenHouseCurrently": false,
+    "openHouseDisplayText": "",
+    "salesMethod": "G",
+    "brokerChain": "DanBolig",
+    "externalPropertyUrl": null,
+    "externalPropertyImageUrl": null,
+    "brokerChainId": "1",
+    "brokerChainName": "",
+    "isSwapProperty": false,
+    "pricePerM2": 22071,
+    "andelsboligBoligYdelse": 735,
+    "andelsboligAnvendelsesUdgifter": 1653,
+    "energyClassification": " ",
+    "propertyId": "RJ691513",
+    "broker": {
+      "brokerId": "069",
+      "brokerName": "Holm & Hauberg BoligCenter Valby/København SV"
+    },
+    "latLon": {
+      "lat": 55.661738,
+      "lon": 12.522614
+    },
+    "county": {
+      "countyId": 1084,
+      "name": "Region Hovedstaden"
+    },
+    "zipCode": {
+      "zipCodeId": 2500,
+      "name": "Valby"
+    }
+  },
+  {
+    "propertyType": {
+      "propertyTypeId": 8,
+      "name": "Villalejlighed"
+    },
+    "price": 399500,
+    "netto": 18576,
+    "brutto": 22330,
+    "address1": "Valbygårdsvej 12, 1 & 2 sal",
+    "placeName": "                                                            ",
+    "builtYear": 1888,
+    "propertySizeAdvertized": 181,
+    "totalNumberOfRooms": 6,
+    "spotText": "",
+    "hasOpenHouseCurrently": false,
+    "openHouseDisplayText": "",
+    "salesMethod": "G",
+    "brokerChain": "DanBolig",
+    "externalPropertyUrl": null,
+    "externalPropertyImageUrl": null,
+    "brokerChainId": "1",
+    "brokerChainName": "",
+    "isSwapProperty": false,
+    "pricePerM2": 22071,
+    "andelsboligBoligYdelse": 735,
+    "andelsboligAnvendelsesUdgifter": 1653,
+    "energyClassification": " ",
+    "propertyId": "RJ691513A",
+    "broker": {
+      "brokerId": "069",
+      "brokerName": "Holm & Hauberg BoligCenter Valby/København SV"
+    },
+    "latLon": {
+      "lat": 55.661738,
+      "lon": 12.522614
+    },
+    "county": {
+      "countyId": 1084,
+      "name": "Region Hovedstaden"
+    },
+    "zipCode": {
+      "zipCodeId": 2500,
+      "name": "Valby"
+    }
+  },
+  {
+    "propertyType": {
+      "propertyTypeId": 1,
+      "name": "Villa"
+    },
+    "price": 399500,
+    "netto": 18576,
+    "brutto": 22330,
+    "address1": "Valbygårdsvej 12, 1 & 2 sal",
+    "placeName": "                                                            ",
+    "builtYear": 1888,
+    "propertySizeAdvertized": 181,
+    "totalNumberOfRooms": 6,
+    "spotText": "",
+    "hasOpenHouseCurrently": false,
+    "openHouseDisplayText": "",
+    "salesMethod": "G",
+    "brokerChain": "DanBolig",
+    "externalPropertyUrl": null,
+    "externalPropertyImageUrl": null,
+    "brokerChainId": "1",
+    "brokerChainName": "",
+    "isSwapProperty": false,
+    "pricePerM2": 22071,
+    "andelsboligBoligYdelse": 735,
+    "andelsboligAnvendelsesUdgifter": 1653,
+    "energyClassification": " ",
+    "propertyId": "RJ691513B",
+    "broker": {
+      "brokerId": "069",
+      "brokerName": "Holm & Hauberg BoligCenter Valby/København SV"
+    },
+    "latLon": {
+      "lat": 55.661738,
+      "lon": 12.522614
+    },
+    "county": {
+      "countyId": 1084,
+      "name": "Region Hovedstaden"
+    },
+    "zipCode": {
+      "zipCodeId": 2500,
+      "name": "Valby"
+    }
+  },
+  {
+    "propertyType": {
+      "propertyTypeId": 1,
+      "name": "Villa"
+    },
+    "price": 383000,
+    "netto": 20794,
+    "brutto": 24389,
+    "address1": "Nystedvej 20",
+    "placeName": "                                                            ",
+    "builtYear": 1925,
+    "propertySizeAdvertized": 133,
+    "totalNumberOfRooms": 6,
+    "spotText": "",
+    "hasOpenHouseCurrently": false,
+    "openHouseDisplayText": "",
+    "salesMethod": "T",
+    "brokerChain": "DanBolig",
+    "externalPropertyUrl": null,
+    "externalPropertyImageUrl": null,
+    "brokerChainId": "1",
+    "brokerChainName": "",
+    "isSwapProperty": false,
+    "pricePerM2": 28796,
+    "andelsboligBoligYdelse": 1104,
+    "andelsboligAnvendelsesUdgifter": 1340,
+    "energyClassification": " ",
+    "propertyId": "PRONY20",
+    "broker": {
+      "brokerId": "215",
+      "brokerName": "DanBolig Projektsalg"
+    },
+    "latLon": {
+      "lat": 55.66782,
+      "lon": 12.490421
+    },
+    "county": {
+      "countyId": 1084,
+      "name": "Region Hovedstaden"
+    },
+    "zipCode": {
+      "zipCodeId": 2500,
+      "name": "Valby"
+    }
+  },
+  {
+    "propertyType": {
+      "propertyTypeId": 8,
+      "name": "Villalejlighed"
+    },
+    "price": 349500,
+    "netto": 17166,
+    "brutto": 20041,
+    "address1": "Amalie Skrams Allé 6, st.",
+    "placeName": "                                                            ",
+    "builtYear": 1915,
+    "propertySizeAdvertized": 92,
+    "totalNumberOfRooms": 4,
+    "spotText": "",
+    "hasOpenHouseCurrently": false,
+    "openHouseDisplayText": "",
+    "salesMethod": "G",
+    "brokerChain": "DanBolig",
+    "externalPropertyUrl": null,
+    "externalPropertyImageUrl": null,
+    "brokerChainId": "1",
+    "brokerChainName": "",
+    "isSwapProperty": false,
+    "pricePerM2": 37989,
+    "andelsboligBoligYdelse": 484,
+    "andelsboligAnvendelsesUdgifter": 1358,
+    "energyClassification": " ",
+    "propertyId": "KF691568",
+    "broker": {
+      "brokerId": "069",
+      "brokerName": "Holm & Hauberg BoligCenter Valby/København SV"
+    },
+    "latLon": {
+      "lat": 55.666274,
+      "lon": 12.500798
+    },
+    "county": {
+      "countyId": 1084,
+      "name": "Region Hovedstaden"
+    },
+    "zipCode": {
+      "zipCodeId": 2500,
+      "name": "Valby"
+    }
+  },
+  {
+    "propertyType": {
+      "propertyTypeId": 1,
+      "name": "Villa"
+    },
+    "price": 329500,
+    "netto": 17920,
+    "brutto": 20886,
+    "address1": "Østergårds Allé 27",
+    "placeName": "                                                            ",
+    "builtYear": 1961,
+    "propertySizeAdvertized": 168,
+    "totalNumberOfRooms": 5,
+    "spotText": "",
+    "hasOpenHouseCurrently": false,
+    "openHouseDisplayText": "",
+    "salesMethod": "G",
+    "brokerChain": "DanBolig",
+    "externalPropertyUrl": null,
+    "externalPropertyImageUrl": null,
+    "brokerChainId": "1",
+    "brokerChainName": "",
+    "isSwapProperty": false,
+    "pricePerM2": 19613,
+    "andelsboligBoligYdelse": 781,
+    "andelsboligAnvendelsesUdgifter": 1780,
+    "energyClassification": " ",
+    "propertyId": "PG691302",
+    "broker": {
+      "brokerId": "069",
+      "brokerName": "Holm & Hauberg BoligCenter Valby/København SV"
+    },
+    "latLon": {
+      "lat": 55.646343,
+      "lon": 12.500052
+    },
+    "county": {
+      "countyId": 1084,
+      "name": "Region Hovedstaden"
+    },
+    "zipCode": {
+      "zipCodeId": 2500,
+      "name": "Valby"
+    }
+  },
+  {
+    "propertyType": {
+      "propertyTypeId": 1,
+      "name": "Villa"
+    },
+    "price": 325000,
+    "netto": 17151,
+    "brutto": 20184,
+    "address1": "Danhaven 36",
+    "placeName": "                                                            ",
+    "builtYear": 1950,
+    "propertySizeAdvertized": 99,
+    "totalNumberOfRooms": 4,
+    "spotText": "",
+    "hasOpenHouseCurrently": false,
+    "openHouseDisplayText": "",
+    "salesMethod": "G",
+    "brokerChain": "DanBolig",
+    "externalPropertyUrl": null,
+    "externalPropertyImageUrl": null,
+    "brokerChainId": "1",
+    "brokerChainName": "",
+    "isSwapProperty": false,
+    "pricePerM2": 32828,
+    "andelsboligBoligYdelse": 414,
+    "andelsboligAnvendelsesUdgifter": 1868,
+    "energyClassification": " ",
+    "propertyId": "KF691517",
+    "broker": {
+      "brokerId": "069",
+      "brokerName": "Holm & Hauberg BoligCenter Valby/København SV"
+    },
+    "latLon": {
+      "lat": 55.649521,
+      "lon": 12.494563
+    },
+    "county": {
+      "countyId": 1084,
+      "name": "Region Hovedstaden"
+    },
+    "zipCode": {
+      "zipCodeId": 2500,
+      "name": "Valby"
+    }
+  }
+]

@@ -2,18 +2,24 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
     <title>Custom slider</title>
-    <link rel="stylesheet" href="cs-slider.css"/>
+    <link rel="stylesheet" href="css/cs-slider.css"/>
 </head>
+
 <body>
 <div id="cs-slider" class="cs-slider">
     <div class="cs-slider_progress"></div>
     <div class="cs-slider_handle"></div>
 </div>
+
 <span class="cs-slider_result"></span>
 
+<div id="map_canvas"></div>
+
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
-<script src="cs-slider.js"></script>
-<script src="app.js"></script>
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCwREZHPCK2aZKfxJ_d3nOLDb2Sf1EHX8Y&sensor=true"></script>
+<script src="js/cs-slider.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>
