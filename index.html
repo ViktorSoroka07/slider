@@ -9,14 +9,43 @@
 
 <body>
 <main id="main">
-    <div id="cs-slider" class="cs-slider">
-        <div class="cs-slider_progress"></div>
-        <div class="cs-slider_handle">
-            <span class="cs-slider_result"></span>
-        </div>
-    </div>
 
-    <div id="map_canvas"></div>
+    <nav>
+        <div id="cs-slider" class="cs-slider">
+            <div class="cs-slider_progress"></div>
+            <div class="cs-slider_handle">
+                <span class="cs-slider_result"></span>
+            </div>
+        </div>
+
+        <div class="circle-wrap map-btn" data-places="places1">
+            <div class="circle-btn">
+                <span class="border-inactive"></span>
+                <span class="border-active"></span>
+                <span class="letter">Map1</span>
+            </div>
+        </div>
+
+        <div class="circle-wrap map-btn" data-places="places2">
+            <div class="circle-btn">
+                <span class="border-inactive"></span>
+                <span class="border-active"></span>
+                <span class="letter">Map2</span>
+            </div>
+        </div>
+
+        <div class="circle-wrap map-btn" data-places="places3">
+            <div class="circle-btn">
+                <span class="border-inactive"></span>
+                <span class="border-active"></span>
+                <span class="letter">Map3</span>
+            </div>
+        </div>
+
+    </nav>
+
+
+    <div id="map-canvas"></div>
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCwREZHPCK2aZKfxJ_d3nOLDb2Sf1EHX8Y&sensor=true"></script>

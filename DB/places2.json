@@ -1,0 +1,542 @@
+[
+  {
+    "propertyType": {
+      "propertyTypeId": 3,
+      "name": "Andelsbolig "
+    },
+    "price": 185700,
+    "netto": 3671,
+    "brutto": 3671,
+    "address1": "Gyldenlakvej 17, st, lejl 6",
+    "placeName": "                                                            ",
+    "builtYear": 1940,
+    "propertySizeAdvertized": 36,
+    "totalNumberOfRooms": 1,
+    "spotText": "",
+    "hasOpenHouseCurrently": false,
+    "openHouseDisplayText": "",
+    "salesMethod": "G",
+    "brokerChain": "DanBolig",
+    "externalPropertyUrl": null,
+    "externalPropertyImageUrl": null,
+    "brokerChainId": "1",
+    "brokerChainName": "",
+    "isSwapProperty": false,
+    "pricePerM2": 5158,
+    "andelsboligBoligYdelse": 3292,
+    "andelsboligAnvendelsesUdgifter": 380,
+    "energyClassification": " ",
+    "propertyId": "190238THB",
+    "broker": {
+      "brokerId": "025",
+      "brokerName": "Ejendomsmægler<br>Niels Hald Amager A/S"
+    },
+    "latLon": {
+      "lat": 55.64589,
+      "lon": 12.61236
+    },
+    "county": {
+      "countyId": 1084,
+      "name": "Region Hovedstaden"
+    },
+    "zipCode": {
+      "zipCodeId": 2300,
+      "name": "København S"
+    }
+  },
+  {
+    "propertyType": {
+      "propertyTypeId": 3,
+      "name": "Andelsbolig "
+    },
+    "price": 222000,
+    "netto": 4657,
+    "brutto": 4657,
+    "address1": "Gyldenlakvej 17, 3, lejl 4",
+    "placeName": "                                                            ",
+    "builtYear": 1940,
+    "propertySizeAdvertized": 52,
+    "totalNumberOfRooms": 2,
+    "spotText": "",
+    "hasOpenHouseCurrently": false,
+    "openHouseDisplayText": "",
+    "salesMethod": "G",
+    "brokerChain": "DanBolig",
+    "externalPropertyUrl": null,
+    "externalPropertyImageUrl": null,
+    "brokerChainId": "1",
+    "brokerChainName": "",
+    "isSwapProperty": false,
+    "pricePerM2": 4269,
+    "andelsboligBoligYdelse": 4208,
+    "andelsboligAnvendelsesUdgifter": 450,
+    "energyClassification": " ",
+    "propertyId": "190237THB",
+    "broker": {
+      "brokerId": "025",
+      "brokerName": "Ejendomsmægler<br>Niels Hald Amager A/S"
+    },
+    "latLon": {
+      "lat": 55.64589,
+      "lon": 12.61236
+    },
+    "county": {
+      "countyId": 1084,
+      "name": "Region Hovedstaden"
+    },
+    "zipCode": {
+      "zipCodeId": 2300,
+      "name": "København S"
+    }
+  },
+  {
+    "propertyType": {
+      "propertyTypeId": 3,
+      "name": "Andelsbolig "
+    },
+    "price": 295000,
+    "netto": 12530,
+    "brutto": 11191,
+    "address1": "Weidekampsgade 13 1 tv",
+    "placeName": "                                                            ",
+    "builtYear": 2004,
+    "propertySizeAdvertized": 93,
+    "totalNumberOfRooms": 3,
+    "spotText": "",
+    "hasOpenHouseCurrently": false,
+    "openHouseDisplayText": "",
+    "salesMethod": "V",
+    "brokerChain": "DanBolig",
+    "externalPropertyUrl": null,
+    "externalPropertyImageUrl": null,
+    "brokerChainId": "1",
+    "brokerChainName": "",
+    "isSwapProperty": false,
+    "pricePerM2": 3172,
+    "andelsboligBoligYdelse": 11650,
+    "andelsboligAnvendelsesUdgifter": 880,
+    "energyClassification": " ",
+    "propertyId": "MG29124",
+    "broker": {
+      "brokerId": "023",
+      "brokerName": "DanBolig Helsingør<br>v/Larsen & Nielsen"
+    },
+    "latLon": {
+      "lat": 55.665839,
+      "lon": 12.584006
+    },
+    "county": {
+      "countyId": 1084,
+      "name": "Region Hovedstaden"
+    },
+    "zipCode": {
+      "zipCodeId": 2300,
+      "name": "København S"
+    }
+  },
+  {
+    "propertyType": {
+      "propertyTypeId": 3,
+      "name": "Andelsbolig "
+    },
+    "price": 300000,
+    "netto": 2056,
+    "brutto": 2056,
+    "address1": "Sundbyvestervej 87, st. 3.",
+    "placeName": "                                                            ",
+    "builtYear": 1965,
+    "propertySizeAdvertized": 45,
+    "totalNumberOfRooms": 1,
+    "spotText": "",
+    "hasOpenHouseCurrently": false,
+    "openHouseDisplayText": "",
+    "salesMethod": "G",
+    "brokerChain": "DanBolig",
+    "externalPropertyUrl": null,
+    "externalPropertyImageUrl": null,
+    "brokerChainId": "1",
+    "brokerChainName": "",
+    "isSwapProperty": false,
+    "pricePerM2": 6666,
+    "andelsboligBoligYdelse": 1607,
+    "andelsboligAnvendelsesUdgifter": 450,
+    "energyClassification": " ",
+    "propertyId": "190249SB",
+    "broker": {
+      "brokerId": "025",
+      "brokerName": "Ejendomsmægler<br>Niels Hald Amager A/S"
+    },
+    "latLon": {
+      "lat": 55.645456,
+      "lon": 12.602685
+    },
+    "county": {
+      "countyId": 1084,
+      "name": "Region Hovedstaden"
+    },
+    "zipCode": {
+      "zipCodeId": 2300,
+      "name": "København S"
+    }
+  },
+  {
+    "propertyType": {
+      "propertyTypeId": 3,
+      "name": "Andelsbolig "
+    },
+    "price": 318500,
+    "netto": 5358,
+    "brutto": 4463,
+    "address1": "Vermlandsgade 14, 3.-1",
+    "placeName": "                                                            ",
+    "builtYear": 1938,
+    "propertySizeAdvertized": 65,
+    "totalNumberOfRooms": 2,
+    "spotText": "",
+    "hasOpenHouseCurrently": false,
+    "openHouseDisplayText": "",
+    "salesMethod": "T",
+    "brokerChain": "DanBolig",
+    "externalPropertyUrl": null,
+    "externalPropertyImageUrl": null,
+    "brokerChainId": "1",
+    "brokerChainName": "",
+    "isSwapProperty": false,
+    "pricePerM2": 4900,
+    "andelsboligBoligYdelse": 4558,
+    "andelsboligAnvendelsesUdgifter": 800,
+    "energyClassification": " ",
+    "propertyId": "490124DH",
+    "broker": {
+      "brokerId": "146",
+      "brokerName": "Ejendomsmægler<br>Niels Hald City A/S"
+    },
+    "latLon": {
+      "lat": 55.668683,
+      "lon": 12.598664
+    },
+    "county": {
+      "countyId": 1084,
+      "name": "Region Hovedstaden"
+    },
+    "zipCode": {
+      "zipCodeId": 2300,
+      "name": "København S"
+    }
+  },
+  {
+    "propertyType": {
+      "propertyTypeId": 3,
+      "name": "Andelsbolig "
+    },
+    "price": 325000,
+    "netto": 13211,
+    "brutto": 13211,
+    "address1": "Weidekampsgade 5, 1.th.",
+    "placeName": "                                                            ",
+    "builtYear": 2004,
+    "propertySizeAdvertized": 110,
+    "totalNumberOfRooms": 4,
+    "spotText": "",
+    "hasOpenHouseCurrently": false,
+    "openHouseDisplayText": "",
+    "salesMethod": "G",
+    "brokerChain": "DanBolig",
+    "externalPropertyUrl": null,
+    "externalPropertyImageUrl": null,
+    "brokerChainId": "1",
+    "brokerChainName": "",
+    "isSwapProperty": false,
+    "pricePerM2": 2954,
+    "andelsboligBoligYdelse": 12152,
+    "andelsboligAnvendelsesUdgifter": 1060,
+    "energyClassification": " ",
+    "propertyId": "190117LC",
+    "broker": {
+      "brokerId": "025",
+      "brokerName": "Ejendomsmægler<br>Niels Hald Amager A/S"
+    },
+    "latLon": {
+      "lat": 55.665963,
+      "lon": 12.585004
+    },
+    "county": {
+      "countyId": 1084,
+      "name": "Region Hovedstaden"
+    },
+    "zipCode": {
+      "zipCodeId": 2300,
+      "name": "København S"
+    }
+  },
+  {
+    "propertyType": {
+      "propertyTypeId": 3,
+      "name": "Andelsbolig "
+    },
+    "price": 398000,
+    "netto": 3574,
+    "brutto": 3574,
+    "address1": "Højdevej 24. st. tv.",
+    "placeName": "                                                            ",
+    "builtYear": 1904,
+    "propertySizeAdvertized": 56,
+    "totalNumberOfRooms": 2,
+    "spotText": "",
+    "hasOpenHouseCurrently": false,
+    "openHouseDisplayText": "",
+    "salesMethod": "G",
+    "brokerChain": "DanBolig",
+    "externalPropertyUrl": null,
+    "externalPropertyImageUrl": null,
+    "brokerChainId": "1",
+    "brokerChainName": "",
+    "isSwapProperty": false,
+    "pricePerM2": 7107,
+    "andelsboligBoligYdelse": 2924,
+    "andelsboligAnvendelsesUdgifter": 650,
+    "energyClassification": " ",
+    "propertyId": "118265MH",
+    "broker": {
+      "brokerId": "025",
+      "brokerName": "Ejendomsmægler<br>Niels Hald Amager A/S"
+    },
+    "latLon": {
+      "lat": 55.654724,
+      "lon": 12.613763
+    },
+    "county": {
+      "countyId": 1084,
+      "name": "Region Hovedstaden"
+    },
+    "zipCode": {
+      "zipCodeId": 2300,
+      "name": "København S"
+    }
+  },
+  {
+    "propertyType": {
+      "propertyTypeId": 3,
+      "name": "Andelsbolig "
+    },
+    "price": 398000,
+    "netto": 3430,
+    "brutto": 3430,
+    "address1": "Engvej 184, st. mf",
+    "placeName": "                                                            ",
+    "builtYear": 1963,
+    "propertySizeAdvertized": 40,
+    "totalNumberOfRooms": 1,
+    "spotText": "",
+    "hasOpenHouseCurrently": false,
+    "openHouseDisplayText": "",
+    "salesMethod": "T",
+    "brokerChain": "DanBolig",
+    "externalPropertyUrl": null,
+    "externalPropertyImageUrl": null,
+    "brokerChainId": "1",
+    "brokerChainName": "",
+    "isSwapProperty": false,
+    "pricePerM2": 9950,
+    "andelsboligBoligYdelse": 1880,
+    "andelsboligAnvendelsesUdgifter": 850,
+    "energyClassification": " ",
+    "propertyId": "190210AK",
+    "broker": {
+      "brokerId": "025",
+      "brokerName": "Ejendomsmægler<br>Niels Hald Amager A/S"
+    },
+    "latLon": {
+      "lat": 55.645719,
+      "lon": 12.635495
+    },
+    "county": {
+      "countyId": 1084,
+      "name": "Region Hovedstaden"
+    },
+    "zipCode": {
+      "zipCodeId": 2300,
+      "name": "København S"
+    }
+  },
+  {
+    "propertyType": {
+      "propertyTypeId": 3,
+      "name": "Andelsbolig "
+    },
+    "price": 450000,
+    "netto": 2682,
+    "brutto": 2682,
+    "address1": "Sognefjordsgade 3, 4. tv.",
+    "placeName": "                                                            ",
+    "builtYear": 1914,
+    "propertySizeAdvertized": 59,
+    "totalNumberOfRooms": 2,
+    "spotText": "",
+    "hasOpenHouseCurrently": false,
+    "openHouseDisplayText": "",
+    "salesMethod": "G",
+    "brokerChain": "DanBolig",
+    "externalPropertyUrl": null,
+    "externalPropertyImageUrl": null,
+    "brokerChainId": "1",
+    "brokerChainName": "",
+    "isSwapProperty": false,
+    "pricePerM2": 7627,
+    "andelsboligBoligYdelse": 2102,
+    "andelsboligAnvendelsesUdgifter": 580,
+    "energyClassification": " ",
+    "propertyId": "1197RI",
+    "broker": {
+      "brokerId": "171",
+      "brokerName": "DanBolig Vangede-Dyssegaard"
+    },
+    "latLon": {
+      "lat": 55.658893,
+      "lon": 12.600119
+    },
+    "county": {
+      "countyId": 1084,
+      "name": "Region Hovedstaden"
+    },
+    "zipCode": {
+      "zipCodeId": 2300,
+      "name": "København S"
+    }
+  },
+  {
+    "propertyType": {
+      "propertyTypeId": 3,
+      "name": "Andelsbolig "
+    },
+    "price": 450000,
+    "netto": 10299,
+    "brutto": 10299,
+    "address1": "Øresundsvej 142C, st. tv.",
+    "placeName": "                                                            ",
+    "builtYear": 2004,
+    "propertySizeAdvertized": 108,
+    "totalNumberOfRooms": 4,
+    "spotText": "",
+    "hasOpenHouseCurrently": false,
+    "openHouseDisplayText": "",
+    "salesMethod": "G",
+    "brokerChain": "DanBolig",
+    "externalPropertyUrl": null,
+    "externalPropertyImageUrl": null,
+    "brokerChainId": "1",
+    "brokerChainName": "",
+    "isSwapProperty": false,
+    "pricePerM2": 4166,
+    "andelsboligBoligYdelse": 9599,
+    "andelsboligAnvendelsesUdgifter": 700,
+    "energyClassification": " ",
+    "propertyId": "790122TE",
+    "broker": {
+      "brokerId": "228",
+      "brokerName": "Ejendomsmægler<br>Niels Hald Amager A/S"
+    },
+    "latLon": {
+      "lat": 55.661177,
+      "lon": 12.628181
+    },
+    "county": {
+      "countyId": 1084,
+      "name": "Region Hovedstaden"
+    },
+    "zipCode": {
+      "zipCodeId": 2300,
+      "name": "København S"
+    }
+  },
+  {
+    "propertyType": {
+      "propertyTypeId": 3,
+      "name": "Andelsbolig "
+    },
+    "price": 498000,
+    "netto": 1387,
+    "brutto": 1387,
+    "address1": "Strandlodsvej 88B, 2. tv.",
+    "placeName": "                                                            ",
+    "builtYear": 1937,
+    "propertySizeAdvertized": 40,
+    "totalNumberOfRooms": 1,
+    "spotText": "",
+    "hasOpenHouseCurrently": false,
+    "openHouseDisplayText": "",
+    "salesMethod": "G",
+    "brokerChain": "DanBolig",
+    "externalPropertyUrl": null,
+    "externalPropertyImageUrl": null,
+    "brokerChainId": "1",
+    "brokerChainName": "",
+    "isSwapProperty": false,
+    "pricePerM2": 12450,
+    "andelsboligBoligYdelse": 1047,
+    "andelsboligAnvendelsesUdgifter": 341,
+    "energyClassification": " ",
+    "propertyId": "790166BS",
+    "broker": {
+      "brokerId": "228",
+      "brokerName": "Ejendomsmægler<br>Niels Hald Amager A/S"
+    },
+    "latLon": {
+      "lat": 55.660577,
+      "lon": 12.624754
+    },
+    "county": {
+      "countyId": 1084,
+      "name": "Region Hovedstaden"
+    },
+    "zipCode": {
+      "zipCodeId": 2300,
+      "name": "København S"
+    }
+  },
+  {
+    "propertyType": {
+      "propertyTypeId": 3,
+      "name": "Andelsbolig "
+    },
+    "price": 535000,
+    "netto": 500,
+    "brutto": 0,
+    "address1": "Amagerbrogade 229, st. tv.",
+    "placeName": "                                                            ",
+    "builtYear": 1944,
+    "propertySizeAdvertized": 64,
+    "totalNumberOfRooms": 2,
+    "spotText": "",
+    "hasOpenHouseCurrently": false,
+    "openHouseDisplayText": "",
+    "salesMethod": "G",
+    "brokerChain": "DanBolig",
+    "externalPropertyUrl": null,
+    "externalPropertyImageUrl": null,
+    "brokerChainId": "1",
+    "brokerChainName": "",
+    "isSwapProperty": false,
+    "pricePerM2": 8359,
+    "andelsboligBoligYdelse": 0,
+    "andelsboligAnvendelsesUdgifter": 500,
+    "energyClassification": " ",
+    "propertyId": "190265SB",
+    "broker": {
+      "brokerId": "025",
+      "brokerName": "Ejendomsmægler<br>Niels Hald Amager A/S"
+    },
+    "latLon": {
+      "lat": 55.647904,
+      "lon": 12.613913
+    },
+    "county": {
+      "countyId": 1084,
+      "name": "Region Hovedstaden"
+    },
+    "zipCode": {
+      "zipCodeId": 2300,
+      "name": "København S"
+    }
+  }
+]

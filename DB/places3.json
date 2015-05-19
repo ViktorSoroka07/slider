@@ -1,0 +1,542 @@
+[
+  {
+    "propertyType": {
+      "propertyTypeId": 1,
+      "name": "Villa"
+    },
+    "price": 5998000,
+    "netto": 28311,
+    "brutto": 33862,
+    "address1": "Italiensvej 74",
+    "placeName": "                                                            ",
+    "builtYear": 1936,
+    "propertySizeAdvertized": 226,
+    "totalNumberOfRooms": 7,
+    "spotText": "",
+    "hasOpenHouseCurrently": false,
+    "openHouseDisplayText": "",
+    "salesMethod": "T",
+    "brokerChain": "DanBolig",
+    "externalPropertyUrl": null,
+    "externalPropertyImageUrl": null,
+    "brokerChainId": "1",
+    "brokerChainName": "",
+    "isSwapProperty": false,
+    "pricePerM2": 26539,
+    "andelsboligBoligYdelse": 743,
+    "andelsboligAnvendelsesUdgifter": 2154,
+    "energyClassification": " ",
+    "propertyId": "400457DH",
+    "broker": {
+      "brokerId": "146",
+      "brokerName": "Ejendomsmægler<br>Niels Hald City A/S"
+    },
+    "latLon": {
+      "lat": 55.656412,
+      "lon": 12.6324
+    },
+    "county": {
+      "countyId": 1084,
+      "name": "Region Hovedstaden"
+    },
+    "zipCode": {
+      "zipCodeId": 2300,
+      "name": "København S"
+    }
+  },
+  {
+    "propertyType": {
+      "propertyTypeId": 1,
+      "name": "Villa"
+    },
+    "price": 4998000,
+    "netto": 25301,
+    "brutto": 29957,
+    "address1": "Højdevangs Alle 24",
+    "placeName": "                                                            ",
+    "builtYear": 1918,
+    "propertySizeAdvertized": 305,
+    "totalNumberOfRooms": 12,
+    "spotText": "",
+    "hasOpenHouseCurrently": false,
+    "openHouseDisplayText": "",
+    "salesMethod": "G",
+    "brokerChain": "DanBolig",
+    "externalPropertyUrl": null,
+    "externalPropertyImageUrl": null,
+    "brokerChainId": "1",
+    "brokerChainName": "",
+    "isSwapProperty": false,
+    "pricePerM2": 16386,
+    "andelsboligBoligYdelse": 567,
+    "andelsboligAnvendelsesUdgifter": 2500,
+    "energyClassification": " ",
+    "propertyId": "106727MH",
+    "broker": {
+      "brokerId": "025",
+      "brokerName": "Ejendomsmægler<br>Niels Hald Amager A/S"
+    },
+    "latLon": {
+      "lat": 55.652459,
+      "lon": 12.607623
+    },
+    "county": {
+      "countyId": 1084,
+      "name": "Region Hovedstaden"
+    },
+    "zipCode": {
+      "zipCodeId": 2300,
+      "name": "København S"
+    }
+  },
+  {
+    "propertyType": {
+      "propertyTypeId": 1,
+      "name": "Villa"
+    },
+    "price": 4200000,
+    "netto": 21797,
+    "brutto": 25798,
+    "address1": "Liden Kirstens Vej 6",
+    "placeName": "                                                            ",
+    "builtYear": 1998,
+    "propertySizeAdvertized": 119,
+    "totalNumberOfRooms": 4,
+    "spotText": "",
+    "hasOpenHouseCurrently": false,
+    "openHouseDisplayText": "",
+    "salesMethod": "G",
+    "brokerChain": "DanBolig",
+    "externalPropertyUrl": null,
+    "externalPropertyImageUrl": null,
+    "brokerChainId": "1",
+    "brokerChainName": "",
+    "isSwapProperty": false,
+    "pricePerM2": 35294,
+    "andelsboligBoligYdelse": 579,
+    "andelsboligAnvendelsesUdgifter": 1026,
+    "energyClassification": " ",
+    "propertyId": "106789THB",
+    "broker": {
+      "brokerId": "025",
+      "brokerName": "Ejendomsmægler<br>Niels Hald Amager A/S"
+    },
+    "latLon": {
+      "lat": 55.655403,
+      "lon": 12.630955
+    },
+    "county": {
+      "countyId": 1084,
+      "name": "Region Hovedstaden"
+    },
+    "zipCode": {
+      "zipCodeId": 2300,
+      "name": "København S"
+    }
+  },
+  {
+    "propertyType": {
+      "propertyTypeId": 1,
+      "name": "Villa"
+    },
+    "price": 4200000,
+    "netto": 22288,
+    "brutto": 26201,
+    "address1": "Amagerbrogade 277",
+    "placeName": "                                                            ",
+    "builtYear": 1931,
+    "propertySizeAdvertized": 145,
+    "totalNumberOfRooms": 7,
+    "spotText": "",
+    "hasOpenHouseCurrently": false,
+    "openHouseDisplayText": "",
+    "salesMethod": "G",
+    "brokerChain": "DanBolig",
+    "externalPropertyUrl": null,
+    "externalPropertyImageUrl": null,
+    "brokerChainId": "1",
+    "brokerChainName": "",
+    "isSwapProperty": false,
+    "pricePerM2": 28965,
+    "andelsboligBoligYdelse": 565,
+    "andelsboligAnvendelsesUdgifter": 1250,
+    "energyClassification": " ",
+    "propertyId": "106829SB",
+    "broker": {
+      "brokerId": "025",
+      "brokerName": "Ejendomsmægler<br>Niels Hald Amager A/S"
+    },
+    "latLon": {
+      "lat": 55.643155,
+      "lon": 12.616401
+    },
+    "county": {
+      "countyId": 1084,
+      "name": "Region Hovedstaden"
+    },
+    "zipCode": {
+      "zipCodeId": 2300,
+      "name": "København S"
+    }
+  },
+  {
+    "propertyType": {
+      "propertyTypeId": 1,
+      "name": "Villa"
+    },
+    "price": 4198000,
+    "netto": 20261,
+    "brutto": 24540,
+    "address1": "Samosvej 10",
+    "placeName": "                                                            ",
+    "builtYear": 1901,
+    "propertySizeAdvertized": 132,
+    "totalNumberOfRooms": 4,
+    "spotText": "",
+    "hasOpenHouseCurrently": false,
+    "openHouseDisplayText": "",
+    "salesMethod": "G",
+    "brokerChain": "DanBolig",
+    "externalPropertyUrl": null,
+    "externalPropertyImageUrl": null,
+    "brokerChainId": "1",
+    "brokerChainName": "",
+    "isSwapProperty": false,
+    "pricePerM2": 31803,
+    "andelsboligBoligYdelse": 647,
+    "andelsboligAnvendelsesUdgifter": 2484,
+    "energyClassification": " ",
+    "propertyId": "700194TE",
+    "broker": {
+      "brokerId": "228",
+      "brokerName": "Ejendomsmægler<br>Niels Hald Amager A/S"
+    },
+    "latLon": {
+      "lat": 55.652055,
+      "lon": 12.621628
+    },
+    "county": {
+      "countyId": 1084,
+      "name": "Region Hovedstaden"
+    },
+    "zipCode": {
+      "zipCodeId": 2300,
+      "name": "København S"
+    }
+  },
+  {
+    "propertyType": {
+      "propertyTypeId": 1,
+      "name": "Villa"
+    },
+    "price": 4195000,
+    "netto": 21936,
+    "brutto": 25886,
+    "address1": "Amsterdamvej 28",
+    "placeName": "                                                            ",
+    "builtYear": 1924,
+    "propertySizeAdvertized": 158,
+    "totalNumberOfRooms": 7,
+    "spotText": "",
+    "hasOpenHouseCurrently": false,
+    "openHouseDisplayText": "",
+    "salesMethod": "G",
+    "brokerChain": "DanBolig",
+    "externalPropertyUrl": null,
+    "externalPropertyImageUrl": null,
+    "brokerChainId": "1",
+    "brokerChainName": "",
+    "isSwapProperty": false,
+    "pricePerM2": 26550,
+    "andelsboligBoligYdelse": 747,
+    "andelsboligAnvendelsesUdgifter": 1970,
+    "energyClassification": " ",
+    "propertyId": "106802THB",
+    "broker": {
+      "brokerId": "025",
+      "brokerName": "Ejendomsmægler<br>Niels Hald Amager A/S"
+    },
+    "latLon": {
+      "lat": 55.648797,
+      "lon": 12.616254
+    },
+    "county": {
+      "countyId": 1084,
+      "name": "Region Hovedstaden"
+    },
+    "zipCode": {
+      "zipCodeId": 2300,
+      "name": "København S"
+    }
+  },
+  {
+    "propertyType": {
+      "propertyTypeId": 4,
+      "name": "Ejerlejlighed "
+    },
+    "price": 3995000,
+    "netto": 19659,
+    "brutto": 23609,
+    "address1": "Artillerivej 118, 4.tv (42)",
+    "placeName": "                                                            ",
+    "builtYear": 2008,
+    "propertySizeAdvertized": 97,
+    "totalNumberOfRooms": 3,
+    "spotText": "",
+    "hasOpenHouseCurrently": false,
+    "openHouseDisplayText": "",
+    "salesMethod": "T",
+    "brokerChain": "DanBolig",
+    "externalPropertyUrl": null,
+    "externalPropertyImageUrl": null,
+    "brokerChainId": "1",
+    "brokerChainName": "",
+    "isSwapProperty": false,
+    "pricePerM2": 41185,
+    "andelsboligBoligYdelse": 4,
+    "andelsboligAnvendelsesUdgifter": 999,
+    "energyClassification": "I",
+    "propertyId": "480009AL",
+    "broker": {
+      "brokerId": "215",
+      "brokerName": "DanBolig Projektsalg"
+    },
+    "latLon": {
+      "lat": 55.658428,
+      "lon": 12.570524
+    },
+    "county": {
+      "countyId": 1084,
+      "name": "Region Hovedstaden"
+    },
+    "zipCode": {
+      "zipCodeId": 2300,
+      "name": "København S"
+    }
+  },
+  {
+    "propertyType": {
+      "propertyTypeId": 4,
+      "name": "Ejerlejlighed "
+    },
+    "price": 3995000,
+    "netto": 20931,
+    "brutto": 24244,
+    "address1": "Weidekampsgade 35, 5.th",
+    "placeName": "                                                            ",
+    "builtYear": 2007,
+    "propertySizeAdvertized": 121,
+    "totalNumberOfRooms": 4,
+    "spotText": "",
+    "hasOpenHouseCurrently": false,
+    "openHouseDisplayText": "",
+    "salesMethod": "T",
+    "brokerChain": "DanBolig",
+    "externalPropertyUrl": null,
+    "externalPropertyImageUrl": null,
+    "brokerChainId": "1",
+    "brokerChainName": "",
+    "isSwapProperty": false,
+    "pricePerM2": 33016,
+    "andelsboligBoligYdelse": 5,
+    "andelsboligAnvendelsesUdgifter": 779,
+    "energyClassification": " ",
+    "propertyId": "411960KI",
+    "broker": {
+      "brokerId": "146",
+      "brokerName": "Ejendomsmægler<br>Niels Hald City A/S"
+    },
+    "latLon": {
+      "lat": 55.666958,
+      "lon": 12.582645
+    },
+    "county": {
+      "countyId": 1084,
+      "name": "Region Hovedstaden"
+    },
+    "zipCode": {
+      "zipCodeId": 2300,
+      "name": "København S"
+    }
+  },
+  {
+    "propertyType": {
+      "propertyTypeId": 4,
+      "name": "Ejerlejlighed "
+    },
+    "price": 3895000,
+    "netto": 19521,
+    "brutto": 23164,
+    "address1": "Artillerivej 118, 1.th. (37)",
+    "placeName": "                                                            ",
+    "builtYear": 2008,
+    "propertySizeAdvertized": 102,
+    "totalNumberOfRooms": 3,
+    "spotText": "",
+    "hasOpenHouseCurrently": false,
+    "openHouseDisplayText": "",
+    "salesMethod": "T",
+    "brokerChain": "DanBolig",
+    "externalPropertyUrl": null,
+    "externalPropertyImageUrl": null,
+    "brokerChainId": "1",
+    "brokerChainName": "",
+    "isSwapProperty": false,
+    "pricePerM2": 38186,
+    "andelsboligBoligYdelse": 4,
+    "andelsboligAnvendelsesUdgifter": 1416,
+    "energyClassification": "H",
+    "propertyId": "480010AL",
+    "broker": {
+      "brokerId": "215",
+      "brokerName": "DanBolig Projektsalg"
+    },
+    "latLon": {
+      "lat": 55.658428,
+      "lon": 12.570524
+    },
+    "county": {
+      "countyId": 1084,
+      "name": "Region Hovedstaden"
+    },
+    "zipCode": {
+      "zipCodeId": 2300,
+      "name": "København S"
+    }
+  },
+  {
+    "propertyType": {
+      "propertyTypeId": 4,
+      "name": "Ejerlejlighed "
+    },
+    "price": 3795000,
+    "netto": 19064,
+    "brutto": 22619,
+    "address1": "Artillerivej 114, 1.th. (15)",
+    "placeName": "                                                            ",
+    "builtYear": 2008,
+    "propertySizeAdvertized": 102,
+    "totalNumberOfRooms": 3,
+    "spotText": "",
+    "hasOpenHouseCurrently": false,
+    "openHouseDisplayText": "",
+    "salesMethod": "T",
+    "brokerChain": "DanBolig",
+    "externalPropertyUrl": null,
+    "externalPropertyImageUrl": null,
+    "brokerChainId": "1",
+    "brokerChainName": "",
+    "isSwapProperty": false,
+    "pricePerM2": 37205,
+    "andelsboligBoligYdelse": 4,
+    "andelsboligAnvendelsesUdgifter": 1416,
+    "energyClassification": "F",
+    "propertyId": "480007AL",
+    "broker": {
+      "brokerId": "215",
+      "brokerName": "DanBolig Projektsalg"
+    },
+    "latLon": {
+      "lat": 55.658679,
+      "lon": 12.570849
+    },
+    "county": {
+      "countyId": 1084,
+      "name": "Region Hovedstaden"
+    },
+    "zipCode": {
+      "zipCodeId": 2300,
+      "name": "København S"
+    }
+  },
+  {
+    "propertyType": {
+      "propertyTypeId": 8,
+      "name": "Villalejlighed"
+    },
+    "price": 3698000,
+    "netto": 17993,
+    "brutto": 21389,
+    "address1": "Badensgade 11, 1. sal",
+    "placeName": "                                                            ",
+    "builtYear": 1901,
+    "propertySizeAdvertized": 144,
+    "totalNumberOfRooms": 5,
+    "spotText": "",
+    "hasOpenHouseCurrently": false,
+    "openHouseDisplayText": "",
+    "salesMethod": "G",
+    "brokerChain": "DanBolig",
+    "externalPropertyUrl": null,
+    "externalPropertyImageUrl": null,
+    "brokerChainId": "1",
+    "brokerChainName": "",
+    "isSwapProperty": false,
+    "pricePerM2": 25680,
+    "andelsboligBoligYdelse": 740,
+    "andelsboligAnvendelsesUdgifter": 1990,
+    "energyClassification": " ",
+    "propertyId": "700222BS",
+    "broker": {
+      "brokerId": "228",
+      "brokerName": "Ejendomsmægler<br>Niels Hald Amager A/S"
+    },
+    "latLon": {
+      "lat": 55.662601,
+      "lon": 12.613456
+    },
+    "county": {
+      "countyId": 1084,
+      "name": "Region Hovedstaden"
+    },
+    "zipCode": {
+      "zipCodeId": 2300,
+      "name": "København S"
+    }
+  },
+  {
+    "propertyType": {
+      "propertyTypeId": 4,
+      "name": "Ejerlejlighed "
+    },
+    "price": 3298000,
+    "netto": 17960,
+    "brutto": 20556,
+    "address1": "Øresund Parkvej 9, 1. TV",
+    "placeName": "                                                            ",
+    "builtYear": 2005,
+    "propertySizeAdvertized": 126,
+    "totalNumberOfRooms": 4,
+    "spotText": "",
+    "hasOpenHouseCurrently": false,
+    "openHouseDisplayText": "",
+    "salesMethod": "G",
+    "brokerChain": "DanBolig",
+    "externalPropertyUrl": null,
+    "externalPropertyImageUrl": null,
+    "brokerChainId": "1",
+    "brokerChainName": "",
+    "isSwapProperty": false,
+    "pricePerM2": 26174,
+    "andelsboligBoligYdelse": 5,
+    "andelsboligAnvendelsesUdgifter": 948,
+    "energyClassification": " ",
+    "propertyId": "710447TE",
+    "broker": {
+      "brokerId": "228",
+      "brokerName": "Ejendomsmægler<br>Niels Hald Amager A/S"
+    },
+    "latLon": {
+      "lat": 55.663758,
+      "lon": 12.629391
+    },
+    "county": {
+      "countyId": 1084,
+      "name": "Region Hovedstaden"
+    },
+    "zipCode": {
+      "zipCodeId": 2300,
+      "name": "København S"
+    }
+  }
+]
