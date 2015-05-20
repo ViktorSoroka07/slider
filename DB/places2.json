@@ -49,51 +49,6 @@
       "propertyTypeId": 3,
       "name": "Andelsbolig "
     },
-    "price": 222000,
-    "netto": 4657,
-    "brutto": 4657,
-    "address1": "Gyldenlakvej 17, 3, lejl 4",
-    "placeName": "                                                            ",
-    "builtYear": 1940,
-    "propertySizeAdvertized": 52,
-    "totalNumberOfRooms": 2,
-    "spotText": "",
-    "hasOpenHouseCurrently": false,
-    "openHouseDisplayText": "",
-    "salesMethod": "G",
-    "brokerChain": "DanBolig",
-    "externalPropertyUrl": null,
-    "externalPropertyImageUrl": null,
-    "brokerChainId": "1",
-    "brokerChainName": "",
-    "isSwapProperty": false,
-    "pricePerM2": 4269,
-    "andelsboligBoligYdelse": 4208,
-    "andelsboligAnvendelsesUdgifter": 450,
-    "energyClassification": " ",
-    "propertyId": "190237THB",
-    "broker": {
-      "brokerId": "025",
-      "brokerName": "Ejendomsmægler<br>Niels Hald Amager A/S"
-    },
-    "latLon": {
-      "lat": 55.64589,
-      "lon": 12.61236
-    },
-    "county": {
-      "countyId": 1084,
-      "name": "Region Hovedstaden"
-    },
-    "zipCode": {
-      "zipCodeId": 2300,
-      "name": "København S"
-    }
-  },
-  {
-    "propertyType": {
-      "propertyTypeId": 3,
-      "name": "Andelsbolig "
-    },
     "price": 295000,
     "netto": 12530,
     "brutto": 11191,

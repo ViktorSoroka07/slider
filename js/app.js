@@ -2,24 +2,27 @@
 
     'use strict';
 
-    /*global google, CTC */
+    /*global google, CTC, MarkerClusterer */
 
     var map = new google.maps.Map(document.getElementById("map-canvas"), {
             mapTypeId: google.maps.MapTypeId.ROADMAP
         }),
-        lowBound = null,
+        cluster,
         prev_info_window = false,
         image_marker = './img/map-icon.png',
         $progress = $('.cs-slider_result'),
         $buttons = $('.map-btn'),
         cache_maps = {},
         markers = [],
+        prev_value = null,
 
         slider = new CTC.modules.CustomSlider('#cs-slider', {
-            animationCallback: function (currentValue, low_bound) {
-                lowBound = low_bound;
+            animationCallback: function (currentValue) {
                 $progress.text(currentValue);
-                map.setZoom(currentValue);
+                if (prev_value !== currentValue) {
+                    prev_value = currentValue;
+                    map.setZoom(currentValue);
+                }
             }
         }),
 
@@ -113,6 +116,11 @@
 
                 });
 
+                cluster = new MarkerClusterer(map, markers, {
+                    maxZoom: maxZoom,
+                    ignoreHidden: true
+                });
+
                 map.setOptions({
                     minZoom: minZoom,
                     maxZoom: maxZoom
@@ -123,7 +131,6 @@
                 map.setZoom(currentZoom);
 
                 slider.setPosition(currentZoom - minZoom);
-
             });
         };
 
@@ -141,10 +148,10 @@
 
     });
 
-    $buttons.on('click', function () {
+    $buttons.on('click touchstart', function () {
 
         var data = $(this).attr('data-places');
-        renderMap(5, 20, 14, data);
+        renderMap(5, 21, 14, data);
         $(this).siblings().removeClass('active');
         $(this).addClass('active');
 

@@ -275,51 +275,6 @@
       "name": "Ejerlejlighed "
     },
     "price": 3995000,
-    "netto": 19659,
-    "brutto": 23609,
-    "address1": "Artillerivej 118, 4.tv (42)",
-    "placeName": "                                                            ",
-    "builtYear": 2008,
-    "propertySizeAdvertized": 97,
-    "totalNumberOfRooms": 3,
-    "spotText": "",
-    "hasOpenHouseCurrently": false,
-    "openHouseDisplayText": "",
-    "salesMethod": "T",
-    "brokerChain": "DanBolig",
-    "externalPropertyUrl": null,
-    "externalPropertyImageUrl": null,
-    "brokerChainId": "1",
-    "brokerChainName": "",
-    "isSwapProperty": false,
-    "pricePerM2": 41185,
-    "andelsboligBoligYdelse": 4,
-    "andelsboligAnvendelsesUdgifter": 999,
-    "energyClassification": "I",
-    "propertyId": "480009AL",
-    "broker": {
-      "brokerId": "215",
-      "brokerName": "DanBolig Projektsalg"
-    },
-    "latLon": {
-      "lat": 55.658428,
-      "lon": 12.570524
-    },
-    "county": {
-      "countyId": 1084,
-      "name": "Region Hovedstaden"
-    },
-    "zipCode": {
-      "zipCodeId": 2300,
-      "name": "København S"
-    }
-  },
-  {
-    "propertyType": {
-      "propertyTypeId": 4,
-      "name": "Ejerlejlighed "
-    },
-    "price": 3995000,
     "netto": 20931,
     "brutto": 24244,
     "address1": "Weidekampsgade 35, 5.th",
