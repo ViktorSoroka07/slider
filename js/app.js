@@ -80,10 +80,11 @@
          * it removes all markers from the map
          * @param markers {Array} - a collection of markers
          */
-        removeMarkers = function (markers) {
-            $.each(markers, function () {
+        removeMarkers = function (markers_collection) {
+            $.each(markers_collection, function () {
                 removeMarker(this);
             });
+            markers = [];
         },
 
         /**
@@ -99,7 +100,11 @@
                 this.setZoom(currentZoom);
             });
 
+
             removeMarkers(markers);
+            if (cluster) {
+                cluster.clearMarkers();
+            }
 
             slider.setBounds(minZoom, maxZoom);
 
