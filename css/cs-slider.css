@@ -54,7 +54,7 @@ body {
     height: 92%;
     padding: 2%;
     margin: 0;
-    background: #61CAE8;
+    background: #0792AB url(http://subtlepatterns.com/patterns/paper.png);
 }
 
 #main {
@@ -62,18 +62,27 @@ body {
 }
 
 nav {
-    height: 3%;
+    display: table;
+    width: 100%;
+    height: 10%;
 }
 
-.cs-slider, .map-btn {
+
+.buttons-group {
+    display: table;
+    margin: 2% auto;
+    list-style: none;
+    overflow: hidden;
+}
+
+.buttons-group li {
     float: left;
 }
 
-
 .cs-slider{
     width: 70%;
-    height: 100%;
-    margin: 0 20px 1% 0;
+    height: 3%;
+    margin: 0 auto 2%;
     position: relative;
     background: #fff;
     }
@@ -97,7 +106,7 @@ nav {
     }
 
 #map-canvas {
-    height: 96%;
+    height: 80%;
     clear: both;
 }
 
@@ -106,39 +115,24 @@ nav {
     min-height: 30px;
 }
 
-
-body {
-    background: #1a1a1a;
-}
-
 /* CIRCLE BUTTON */
 .circle-wrap {
-    width: 102px;
-    height: 102px;
-    margin: 0 auto 50px;
+    width: 60px;
+    height: 60px;
+    margin: 10px 20px;
     text-align: center;
     top: 0;
     position: relative;
     cursor: pointer;
     display: block;
-    -moz-backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -moz-transform: translate(-2px, 20px) translateZ(0) translate3d(0, 0, 0);
-    -ms-transform: translate(-2px, 20px) translateZ(0) translate3d(0, 0, 0);
-    -webkit-transform: translate(-2px, 20px) translateZ(0) translate3d(0, 0, 0);
-    transform: translate(-2px, 20px) translateZ(0) translate3d(0, 0, 0);
-    -moz-transform-style: preserve-3d;
-    -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
 }
 
 .border-inactive {
     display: block;
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
+    background: rgba(175, 206, 240, 0.68);
     position: absolute;
-    opacity: .3;
     border: 2px solid #fff;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -167,14 +161,15 @@ div:hover .border-inactive {
 
 .border-active {
     display: block;
-    height: 112px;
-    width: 112px;
-    margin: -57px 0 0 -57px;
+    height: 60px;
+    width: 60px;
+    margin: -30px 0 0 -30px;
     position: absolute;
     opacity: 0;
     top: 50%;
     left: 50%;
-    border: 2px solid #4fe7bc;
+    background: rgba(255, 88, 69, 0.50);
+    border: 2px solid rgba(231, 103, 77, 0.80);
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
@@ -190,7 +185,7 @@ div:hover .border-inactive {
     -webkit-transform: scale(0.8) translateZ(0) translate3d(0, 0, 0);
     transform: scale(0.8) translateZ(0) translate3d(0, 0, 0);
 }
-div:hover .border-active {
+li.active .border-active, div:hover .border-active {
     opacity: 1;
     -moz-transform: scale(1) translateZ(0) translate3d(0, 0, 0);
     -ms-transform: scale(1) translateZ(0) translate3d(0, 0, 0);
@@ -204,14 +199,14 @@ div:hover .border-active {
 }
 
 .letter {
-    font: 60px/45px "Oswald", sans-serif;
-    color: #FFFFFF;
-    opacity: .4;
+    font: 16px/68px "Oswald", sans-serif;
+    color: #000;
+    opacity: .5;
     position: relative;
-    -moz-transform: translate(1px, 5px) translateZ(0) translate3d(0, 0, 0);
-    -ms-transform: translate(1px, 5px) translateZ(0) translate3d(0, 0, 0);
-    -webkit-transform: translate(1px, 5px) translateZ(0) translate3d(0, 0, 0);
-    transform: translate(1px, 5px) translateZ(0) translate3d(0, 0, 0);
+    -moz-transform: translate(0, 0) translateZ(0) translate3d(0, 0, 0);
+    -ms-transform: translate(0, 0) translateZ(0) translate3d(0, 0, 0);
+    -webkit-transform: translate(0, 0) translateZ(0) translate3d(0, 0, 0);
+    transform: translate(0, 0) translateZ(0) translate3d(0, 0, 0);
     -moz-transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
@@ -220,14 +215,15 @@ div:hover .border-active {
     -webkit-transition: all 500ms cubic-bezier(0.23, 1, 0.32, 1);
     transition: all 500ms cubic-bezier(0.23, 1, 0.32, 1);
 }
+
+.active .letter {
+    color: #fff;
+    opacity: 1;
+}
+
 div:hover .letter {
-    -moz-transform: translate(1px, 1px) translateZ(0) translate3d(0, 0, 0);
-    -ms-transform: translate(1px, 1px) translateZ(0) translate3d(0, 0, 0);
-    -webkit-transform: translate(1px, 1px) translateZ(0) translate3d(0, 0, 0);
-    transform: translate(1px, 1px) translateZ(0) translate3d(0, 0, 0);
     -moz-transition: all 700ms cubic-bezier(0.23, 1, 0.32, 1);
     -o-transition: all 700ms cubic-bezier(0.23, 1, 0.32, 1);
     -webkit-transition: all 700ms cubic-bezier(0.23, 1, 0.32, 1);
     transition: all 700ms cubic-bezier(0.23, 1, 0.32, 1);
-    opacity: 1;
 }

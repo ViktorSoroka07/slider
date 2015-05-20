@@ -28,9 +28,9 @@
          * @param data_name - a name of file to get from the data storage
          */
         getDataDB = function (data_name) {
-            //if (data_name in cache_maps) {
-            //    return cache_maps[data_name];
-            //}
+            if (data_name in cache_maps) {
+                return cache_maps[data_name];
+            }
             return $.getJSON('./DB/' + data_name + '.json');
         },
 
@@ -104,7 +104,7 @@
 
                 var bounds = new google.maps.LatLngBounds();
 
-                cache_maps[places] = cache_maps[places] || places;
+                cache_maps[places] = cache_maps[places] || data;
 
                 $.each(data, function () {
 
@@ -145,6 +145,8 @@
 
         var data = $(this).attr('data-places');
         renderMap(5, 20, 14, data);
+        $(this).siblings().removeClass('active');
+        $(this).addClass('active');
 
     });
 
