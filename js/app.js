@@ -145,6 +145,39 @@
 
     });
 
+
+    function rad(x) {
+        return x * Math.PI / 180;
+    }
+    function find_closest_marker (e) {
+        var lat = e.latLng.lat(),
+            lng = e.latLng.lng(),
+            R = 6371, // radius of earth in km
+            distances = [],
+            closest = -1;
+        for(var i = 0; i < markers.length; i++ ) {
+            var mlat = markers[i].position.lat();
+            var mlng = markers[i].position.lng();
+            var dLat  = rad(mlat - lat);
+            var dLong = rad(mlng - lng);
+            var a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+                Math.cos(rad(lat)) * Math.cos(rad(lat)) * Math.sin(dLong / 2) * Math.sin(dLong / 2);
+            var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+            var d = R * c;
+            distances[i] = d;
+            if (closest === -1 || d < distances[closest]) {
+                closest = i;
+            }
+        }
+
+        alert(markers[closest].title);
+    }
+
+    google.maps.event.addListener(map, 'click', function (e) {
+        map.setCenter(e.latLng);
+        find_closest_marker(e);
+    });
+
     google.maps.event.addDomListener(window, "resize", function () {
 
         var center = map.getCenter();
