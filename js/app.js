@@ -1,13 +1,29 @@
-;(function () {
+;
+(function () {
 
     'use strict';
 
     /*global google, CTC, MarkerClusterer */
-
+    google.maps.Circle.prototype.contains = function (latLng) {
+        return this.getBounds().contains(latLng) && google.maps.geometry.spherical.computeDistanceBetween(this.getCenter(), latLng) <= this.getRadius();
+    };
     var map = new google.maps.Map(document.getElementById("map-canvas"), {
             mapTypeId: google.maps.MapTypeId.ROADMAP
         }),
-        cluster,
+
+        circle = {
+            strokeColor: '#FF0000',
+            strokeOpacity: 0.8,
+            strokeWeight: 2,
+            fillColor: '#FF0000',
+            fillOpacity: 0.35,
+            radius: 1,
+            map: map,
+            center: map.getCenter()
+        },
+    // Add the circle for this city to the map.
+        cityCircle = new google.maps.Circle(circle),
+        clusterer,
         prev_info_window = false,
         image_marker = './img/map-icon.png',
         $progress = $('.cs-slider_result'),
@@ -21,7 +37,15 @@
                 $progress.text(currentValue);
                 if (prev_value !== currentValue) {
                     prev_value = currentValue;
-                    map.setZoom(currentValue);
+                    cityCircle.setRadius(currentValue * 100);
+                    $.each(markers, function (index) {
+                        if (cityCircle.contains(markers[index].getPosition())) {
+                            markers[index].setVisible(true);
+                        } else {
+                            markers[index].setVisible(false);
+                        }
+                    });
+                    clusterer.repaint();
                 }
             }
         }),
@@ -49,6 +73,7 @@
                 position: new google.maps.LatLng(coords.lat, coords.lon),
                 title: title,
                 map: map,
+                visible: false,
                 info: new google.maps.InfoWindow({
                     content: '<div class="marker-content">' + title + '</p>'
                 }),
@@ -78,7 +103,7 @@
 
         /**
          * it removes all markers from the map
-         * @param markers {Array} - a collection of markers
+         * @param markers_collection
          */
         removeMarkers = function (markers_collection) {
             $.each(markers_collection, function () {
@@ -102,8 +127,8 @@
 
 
             removeMarkers(markers);
-            if (cluster) {
-                cluster.clearMarkers();
+            if (clusterer) {
+                clusterer.clearMarkers();
             }
 
             slider.setBounds(minZoom, maxZoom);
@@ -114,16 +139,24 @@
 
                 cache_maps[places] = cache_maps[places] || data;
 
-                $.each(data, function () {
+                clusterer = new MarkerClusterer(map, [], {
+                    maxZoom: maxZoom,
+                    ignoreHidden: true
+                });
+
+                $.each(data, function (index) {
 
                     bounds.extend(new google.maps.LatLng(this.latLon.lat, this.latLon.lon));
                     addMarker(map, this.latLon, this.address1);
+                    clusterer.addMarker(markers[index], true);
+                    google.maps.event.addListener(markers[index], 'visible_changed', function () {
+                        if (markers[index].getVisible()) {
+                            clusterer.addMarker(markers[index], true);
+                        } else {
+                            clusterer.removeMarker(markers[index], true);
+                        }
+                    });
 
-                });
-
-                cluster = new MarkerClusterer(map, markers, {
-                    maxZoom: maxZoom,
-                    ignoreHidden: true
                 });
 
                 map.setOptions({
@@ -134,48 +167,24 @@
                 map.fitBounds(bounds);
 
                 map.setZoom(currentZoom);
-
-                slider.setPosition(currentZoom - minZoom);
+                $('.cs-slider_result').text(minZoom);
+                cityCircle.setRadius(minZoom * 100);
+                //slider.setPosition(currentZoom - minZoom);
             });
         };
 
-    google.maps.event.addListener(map, 'zoom_changed', function () {
-
-        slider.setPosition(map.getZoom() - map.minZoom);
-
-    });
-
-
-    function rad(x) {
-        return x * Math.PI / 180;
-    }
-    function find_closest_marker (e) {
-        var lat = e.latLng.lat(),
-            lng = e.latLng.lng(),
-            R = 6371, // radius of earth in km
-            distances = [],
-            closest = -1;
-        for(var i = 0; i < markers.length; i++ ) {
-            var mlat = markers[i].position.lat();
-            var mlng = markers[i].position.lng();
-            var dLat  = rad(mlat - lat);
-            var dLong = rad(mlng - lng);
-            var a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
-                Math.cos(rad(lat)) * Math.cos(rad(lat)) * Math.sin(dLong / 2) * Math.sin(dLong / 2);
-            var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-            var d = R * c;
-            distances[i] = d;
-            if (closest === -1 || d < distances[closest]) {
-                closest = i;
-            }
-        }
-
-        alert(markers[closest].title);
-    }
-
     google.maps.event.addListener(map, 'click', function (e) {
         map.setCenter(e.latLng);
-        find_closest_marker(e);
+        cityCircle.setCenter(e.latLng);
+
+        $.each(markers, function (index) {
+            if (cityCircle.contains(markers[index].getPosition())) {
+                markers[index].setVisible(true);
+            } else {
+                markers[index].setVisible(false);
+            }
+        });
+        clusterer.repaint();
     });
 
     google.maps.event.addDomListener(window, "resize", function () {
